@@ -83,7 +83,7 @@ public class Calculadora {
     /**
      * El nombre menu es el que da el paso a las operaciones para selecionar los metodos.
      * @return
-     * En este caso return
+     * En este caso return 'devuelve' la informacion recopilada
      */
     public static int menu() { // presenta el menú de opciones, y devuelve el código de operación
         Scanner sc = new Scanner(System.in);
