@@ -15,7 +15,12 @@ public class Calculadora {
 
         /**
          * Recogemos datos por teclado que seran enviados a distintos metodos.
-         *  En este caso sólo pedimos 2 números.
+         * En este caso sólo pedimos 2 números.
+         * <p>Los metodos a ejecutar son:</p>
+         * <ul>
+         *     <li>Opciones</li>
+         *     <li>Operaciones</li>
+         * </ul>
          */
         // Recoger datos
         Scanner sc = new Scanner(System.in);
@@ -78,6 +83,7 @@ public class Calculadora {
     /**
      * El nombre menu es el que da el paso a las operaciones para selecionar los metodos.
      * @return
+     * En este caso return
      */
     public static int menu() { // presenta el menú de opciones, y devuelve el código de operación
         Scanner sc = new Scanner(System.in);
